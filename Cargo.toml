@@ -1,0 +1,48 @@
+[package]
+name = "rust-lifetimes-tutorial"
+version = "0.1.0"
+edition = "2021"
+authors = ["Saurabh Shetty <sauraj9290@gmail.com>"]
+description = "A comprehensive tutorial for understanding Rust lifetimes through practical examples"
+license = "MIT"
+repository = "https://github.com/Saurus9290/rust-lifetimes-tutorial"
+keywords = ["rust", "lifetimes", "tutorial", "learning", "borrow-checker"]
+categories = ["development-tools", "tutorial"]
+
+[[bin]]
+name = "librarian_analogy"
+path = "src/01_librarian_analogy.rs"
+
+[[bin]]
+name = "basic_syntax"
+path = "src/02_basic_syntax.rs"
+
+[[bin]]
+name = "classic_problem"
+path = "src/03_classic_problem.rs"
+
+[[bin]]
+name = "function_lifetimes"
+path = "src/04_function_lifetimes.rs"
+
+[[bin]]
+name = "struct_lifetimes"
+path = "src/05_struct_lifetimes.rs"
+
+[[bin]]
+name = "common_patterns"
+path = "src/06_common_patterns.rs"
+
+[[bin]]
+name = "advanced_examples"
+path = "src/07_advanced_examples.rs"
+
+[[bin]]
+name = "lifetime_elision"
+path = "src/08_lifetime_elision.rs"
+
+[[bin]]
+name = "best_practices"
+path = "src/09_best_practices.rs"
+
+[dependencies]
