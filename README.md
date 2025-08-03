@@ -81,4 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Created as part of the #30DaysOfRust journey to help make Rust's lifetimes click for everyone! 🦀*
+*Part of the #30DaysOfRust journey to help make Rust's lifetimes click for everyone! 🦀*
